@@ -3,6 +3,7 @@ import Header from './Header'
 import Referal from './Referal'
 import Hero from './Hero'
 import Donation from './Donation'
+import Rewards from './Rewards'
 
 function Dashboard() {
   return (
@@ -12,6 +13,7 @@ function Dashboard() {
       <h1 className='text-[1rem] font-normal mx-[3rem] mb-6 mt-1.5'>Keep up the great work spreading the word about Fundsy!</h1>
       <Hero/>
       <Donation/>
+      <Rewards/>
       <Referal/>
       </div>
     </>
